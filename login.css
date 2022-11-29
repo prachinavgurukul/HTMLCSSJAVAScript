@@ -1,0 +1,37 @@
+#mainContainer{
+    width: 1000px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    box-sizing: 5%;
+}
+#container1{
+    width: 65%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    margin: top;
+}
+#container2{
+    width: 35%;
+    height: 100%;
+    background-color: green; 
+}
+#box2{
+    margin-top: 50%;
+    text-align: center;
+}
+#abc{
+    display: flex;
+    flex-direction: row;
+}
+hr{
+    width: 140px;
+    color: gray;
+}
+input{
+    width: 180px;
+    height: 20px;
+}

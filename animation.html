@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes animation1{
+            0%{
+                color: green;
+                font-size: 15px;
+                
+            }
+            25%{
+                color: greenyellow;
+                font-size: 20px;
+            }
+            50%{
+                color:blue;
+                font-size: 30px;
+            }
+            75%{
+                color:hotpink ;
+                font-size: 40px;
+            }
+            100%{
+                color: indianred;
+                font-size: 15%;
+            }
+
+        }
+        h1{
+            color: red;
+            animation-name: animation1;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            text-transform: uppercase;
+            /* padding-left: 700px; */
+            animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            text-align: center;
+            margin-top: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Navgurukul</h1>
+    
+</body>
+</html>
